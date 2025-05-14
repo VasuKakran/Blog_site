@@ -1,77 +1,60 @@
 Blog_site
-A full-stack blogging platform that enables users to create, manage, and read blog posts. Built with a modular architecture separating the frontend and backend for scalability and maintainability.
 
-🔧 Technologies Used
-Frontend: React.js
+A full-stack blogging platform that enables users to create, manage, and read blog posts.
+Built with a modular architecture separating the frontend and backend for scalability and maintainability.
 
-Backend: Node.js, Express.js
+Technologies Used
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- Styling: SCSS
+- Templating: HTML
 
-Styling: SCSS
-
-Templating: HTML
-
-📁 Project Structure
-graphql
-Copy
-Edit
+Project Structure
 Blog_site/
 ├── api/           # Backend API built with Node.js and Express
 ├── client/        # Frontend application built with React
 ├── .gitignore     # Specifies files and directories to ignore in Git
-🚀 Getting Started
+
+Getting Started
+
 Prerequisites
-Node.js and npm installed on your machine
+- Node.js and npm installed on your machine
 
 Installation
-Clone the repository:
+1. Clone the repository:
+   git clone https://github.com/VasuKakran/Blog_site.git
+   cd Blog_site
 
-bash
-Copy
-Edit
-git clone https://github.com/VasuKakran/Blog_site.git
-cd Blog_site
-Install dependencies for both frontend and backend:
+2. Install dependencies for both frontend and backend:
+   # Install backend dependencies
+   cd api
+   npm install
 
-bash
-Copy
-Edit
-# Install backend dependencies
-cd api
-npm install
+   # Install frontend dependencies
+   cd ../client
+   npm install
 
-# Install frontend dependencies
-cd ../client
-npm install
 Running the Application
-Start the backend server:
 
-bash
-Copy
-Edit
-cd api
-npm start
-Start the frontend development server:
+1. Start the backend server:
+   cd api
+   npm start
 
-bash
-Copy
-Edit
-cd ../client
-npm start
-Access the application:
+2. Start the frontend development server:
+   cd ../client
+   npm start
 
-Open your browser and navigate to http://localhost:3000 to view the application.
+3. Access the application:
+   Open your browser and navigate to http://localhost:3000 to view the application.
 
-📄 Features
-User-friendly interface for reading and writing blog posts
+Features
+- User-friendly interface for reading and writing blog posts
+- Responsive design for various devices
+- Modular codebase for easy maintenance
+- Separation of concerns between frontend and backend
 
-Responsive design for various devices
-
-Modular codebase for easy maintenance
-
-Separation of concerns between frontend and backend
-
-🤝 Contributing
+Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
-📄 License
+License
 This project is open-source and available under the MIT License.
