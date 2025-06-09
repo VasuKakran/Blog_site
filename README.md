@@ -16,27 +16,34 @@ A full-stack blog web application with user authentication, post creation, and v
 
 ### Backend
 
-1. Navigate to the `api` directory:   
+1. Navigate to the `api` directory:
+   ```bash
    cd api
-  
+   ```
 2. Install dependencies:
+   ```bash
    npm install
-   
+   ```
 3. Create a `.env` file for environment variables (e.g., database credentials, JWT secret).
 4. Start the backend server:
+   ```bash
    npm start
+   ```
 
 ### Frontend
 
 1. Navigate to the `client` directory:
+   ```bash
    cd client
-   
+   ```
 2. Install dependencies:
+   ```bash
    npm install
-   
+   ```
 3. Start the frontend development server:
+   ```bash
    npm start
-   
+   ```
 
 The frontend server proxies API requests to the backend server running on port 8800.
 
